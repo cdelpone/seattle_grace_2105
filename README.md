@@ -27,7 +27,7 @@ pry(main)> meredith.specialty
 # => "General Surgery"
 
 pry(main)> meredith.education
-# => "Harvard University" 
+# => "Harvard University"
 
 pry(main)> meredith.salary
 # => 100000
@@ -53,7 +53,7 @@ pry(main)> alex = Doctor.new({name: "Alex Karev", specialty: "Pediatric Surgery"
 pry(main)> seattle_grace = Hospital.new("Seattle Grace", "Richard Webber", [meredith, alex])
 # => #<Hospital:0x00007f83280b3288...>
 
-pry(main)> seattle_grace.name 
+pry(main)> seattle_grace.name
 # => "Seattle Grace"
 
 pry(main)> seattle_grace.chief_of_surgery
@@ -74,7 +74,7 @@ pry(main)> seattle_grace.specialties
 
 ## Iteration 3
 
-Use TDD to create a `Network` class that responds to the following interaction pattern. 
+Use TDD to create a `Network` class that responds to the following interaction pattern.
 
 ```ruby
 pry(main)> require './lib/doctor'
@@ -121,7 +121,7 @@ pry(main)> gsmn.hospitals
 # => [#<Hospital:0x00007f83280b3288...>, #<Hospital:0x00007fe5f88b0a20...>]
 
 pry(main)> gsmn.highest_paid_doctor
-# => #<Doctor:0x00007fe5f832bb18...> 
+# => #<Doctor:0x00007fe5f832bb18...>
 
 pry(main)> gsmn.doctors_by_hospital
 # => {
