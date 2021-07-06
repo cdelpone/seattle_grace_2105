@@ -4,11 +4,11 @@ class Doctor
               :education,
               :salary
 
-  def initialize(doctor)
-    @name = doctor[:name]
-    @specialty = doctor[:specialty]
-    @education = doctor[:education]
-    @salary = doctor[:salary]
+  def initialize(doctor_info)
+    @name = doctor_info[:name]
+    @specialty = doctor_info[:specialty]
+    @education = doctor_info[:education]
+    @salary = doctor_info[:salary]
 
   end
 
